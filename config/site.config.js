@@ -51,7 +51,7 @@ module.exports = {
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
   // you provide. See the documentation for details.
   links: [
-    {
+  {
       name: 'GitHub',
       link: 'https://github.com/Hang0224',
     },
@@ -64,3 +64,9 @@ module.exports = {
       link: 'https://www.messenger.com/t/100034231630630',
     },
   ],
+
+  // This is a day.js-style datetime format string to format datetimes in the app. Ref to
+  // https://day.js.org/docs/en/display/format for detailed specification. The default value is ISO 8601 full datetime
+  // without timezone and replacing T with space.
+  datetimeFormat: 'YYYY-MM-DD HH:mm:ss',
+}
